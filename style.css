@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    45deg rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255)
+  );
+}
+button {
+  background: transparent;
+  padding: 15px 30px;
+  font-family: fantasy;
+  font-size: 28px;
+  border: 4px double red;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
